@@ -30,6 +30,8 @@ jQuery(document).ready(function ($) {
 
 
 });
-window.onscroll=function(){
+
+var _focusSAO=function(e){
+	console.log("ff");
 	document.getElementById("SAO").focus();
 }
