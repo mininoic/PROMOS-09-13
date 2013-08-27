@@ -30,3 +30,6 @@ jQuery(document).ready(function ($) {
 
 
 });
+window.onscroll=function(){
+	document.getElementById("SAO").focus();
+}
